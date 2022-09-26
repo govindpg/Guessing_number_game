@@ -5,7 +5,6 @@ lower=int(input("enter lower bound :"))
 
 x=random.randint(lower,upper)
 num=int(input("how many you want to try"))
-print(x)
 i=0
 while i <num:
     Guess = int(input("enter your guess number"))
